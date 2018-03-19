@@ -1,0 +1,123 @@
+﻿/*Page body*/
+body {
+    background-image: url('Csgo-de-dust2.png');
+    background-repeat: no-repeat;
+    background-color: rgb(235, 232, 228);
+    margin: 0px auto;
+    padding: 10px;
+    width: 1200px;
+}
+#intro{
+    clear:left;
+    padding-right:50px;
+    padding-left:50px;
+}
+
+#tip{
+   border: 1px solid black;
+   float: right;
+   padding: 20px;
+   width: 180px;
+   background-color:antiquewhite;
+   -moz-border-radius: 35px;
+   border-radius: 35px;
+   box-shadow:10px 10px 20px #000;
+   -webkit-box-shadow:10px 10px 20px #000;
+   -moz-box-shadow: 10px 10px 20px #000;
+}
+
+#reviews > h2{
+    text-align:left;
+    padding-left:100px;
+}
+
+#reviews{
+    padding-right:400px;
+}
+
+#quote{
+    margin: 0.5cm 7cm 0.5cm 0.5cm;
+}
+hr{
+    width:100%;
+}
+h1 {
+    text-align: center;
+    font-size: 2px; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 8px #80ffff;
+}
+
+/*navigation list style*/
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav.horizontalNAV li{
+    float:left;
+    width: 14%;
+    font-size: 87.5%;
+    text-align: center;
+    padding: 10px 10px;
+}
+nav.horizontalNAV li a{
+    color: dodgerblue;
+}
+nav.horizontalNAV li a:hover{
+    color: silver;
+}
+
+/*order lists*/
+
+ol {
+    width: 20%;
+    float: left;
+}
+
+/*horizontal rule*/
+hr {
+    float: clear;
+    align-content: center;
+}
+/* FAQ page*/
+#questions {
+    text-align: left;
+}
+
+#questions > h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#questions > p {
+    font-size: 13px;
+    font-weight: normal;
+}
+/*maps page*/
+#maps > h2 {
+    font-size:18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#bravo{
+    box-shadow: rgba(211, 211, 211, 0.5) -10px 0px 15px,rgba(211, 211, 211, 0.5) 10px 0px 15px;
+    drop-b
+}
+
+/*footer styles*/
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+}

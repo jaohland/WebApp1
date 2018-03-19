@@ -1,0 +1,101 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: jake ohland
+   Date:   9-21-16
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+/*page body*/
+body{
+    font-family: Tahoma,Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+/*general article style*/
+#articleheader {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+/*general navigation details style*/
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+    nav a:hover {
+        background-color: rgb(131, 121, 36);
+        color: yellow;
+        color: rgba(255, 255, 255, 1);
+    }
+
+nav {
+    background-color: rgb(125, 120, 89);
+    line-height: 3em;
+}
+
+/*custom bullets in nav bar*/
+ul {
+  list-style-type: none;
+}
+ul li:hover{
+    list-style-image: url('wheelmarker.png');
+}
+
+/*bike the mountain tour style*/
+#leftsection > p{
+    font-size: 22px;
+}
+
+#leftsection > p:first-child::first-line { 
+    text-transform: uppercase;
+}
+
+blockquote {
+    background-color: rgb(131,121,36);
+    color: white;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', 'Times New Roman', cursive;
+}
+
+blockquote p::before {
+    content: open-quote;
+}
+blockquote p::after {
+    content: close-quote;
+}
+
+/*itinerary style*/
+#rightsection > h1{
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#rightsection > h2{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: right;
+}
+
+#rightsection > p{
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+
+footer > address{
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+}

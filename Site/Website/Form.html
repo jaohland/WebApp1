@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CS:GO Tips sign up</title>
+	<meta charset="utf-8" />
+    <meta name="author" content="Jake Ohland" />
+    <meta name="Description" content="CSGO sign up" />
+    <meta name="keywords" content="registration" />
+    <link href="css_style.css" rel="stylesheet" />
+    <link href="Formstyle.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1><img src="GlobalElite.png" />CS:GOTips<img src="GlobalElite.png" /></h1>
+            <h2>Helping n00bs go from Silver 1 to Global Elite since 2012</h2>
+        </hgroup>
+    </header>
+    <nav class="horizontalNAV">
+        <ul>
+            <li><a href="default.html">Home</a></li>
+            <li><a href="Maps.html">Maps</a></li>
+            <li><a href="Weapons.html">Weapons</a></li>
+            <li><a href="Grenades.html">Grenades</a></li>
+            <li><a href="Skins.html">Skins</a></li>
+            <li><a href="FAQ.html">F.A.Q.</a></li>
+        </ul>
+    </nav>
+    <hr />
+    <h1> </h1>
+    <h1 id="paymentform">Payment Form</h1>
+    <form action="http://www.csgotips.com/user_database" method="post">
+        <fieldset id="billing">
+            <legend>Enter Information (required *):</legend>
+            <label>First Name*</label>
+            <input type="text" name="fName" id="fName" required="required" size="20" />
+            <label>Last Name</label>
+            <input type="text" name="lName" id="lName" required="required" size="20" />
+            <label>SteamID*</label>
+            <input type="text" name="steamid" id="steamid" required="required" size="40"/>
+            <label>City*</label>
+            <input type="text" name="city" id="city" required="required" size="25"/>
+            <label>State*</label>
+            <select name="state" id="state" size="1" required="required">
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AZ">AZ</option>
+                <option value="AR">AR</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DE">DE</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="IA">IA</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="ME">ME</option>
+                <option value="MD">MD</option>
+                <option value="MA">MA</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MS">MS</option>
+                <option value="MO">MO</option>
+                <option value="MT">MT</option>
+                <option value="NE">NE</option>
+                <option value="NV">NV</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NY">NY</option>
+                <option value="NC">NC</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WV">WV</option>
+                <option value="WI">WI</option>
+                <option value="WY">WY</option>
+            </select>
+
+            <label>ZIP/Postal Code*</label>
+            <input type="text" name="zip" id="zip"
+                   pattern="^\d{5}(\-\d{4})?$" required="required" />
+
+            <label>Country*</label>
+            <input type="text" name="country" id="country" maxlength="20" required="required" />
+        </fieldset>
+
+        <fieldset id="creditcard">
+            <legend>Credit Card*</legend>
+            <fieldset class="optionGroup" required="required">
+                <label>
+                    <input type="radio" name="creditcard" id="diner" value="diners" />
+                    <img src="diners.png" />
+                </label>
+                <label>
+                    <input type="radio" name="creditcard" id="discover" value="discover" />
+                    <img src="discover.png" />
+                </label>
+                <label>
+                    <input type="radio" name="creditcard" id="master" value="master" />
+                    <img src="master.png" />
+                </label>
+                <label>
+                    <input type="radio" name="creditcard" id="visa" value="visa" />
+                    <img src="visa.png" />
+                </label>
+            </fieldset>
+
+            <label>Credit Card Number*</label>
+            <input type="text" name="ccardnumber" id="ccardnumber" size="25"
+                   pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"
+                   required="required" />
+            <label>Expiration Date*</label>
+            <select name="ccardmonth" id="ccardmonth" required="required">
+                <option value="" default="default">--Month--</option>
+                <option value="">January (01)</option>
+                <option value="">February (02)</option>
+                <option value="">March (03)</option>
+                <option value="">April (04)</option>
+                <option value="">May (05)</option>
+                <option value="">June (06)</option>
+                <option value="">July (07)</option>
+                <option value="">August (08)</option>
+                <option value="">September (09)</option>
+                <option value="">October (10)</option>
+                <option value="">November (11)</option>
+                <option value="">December (12)</option>
+            </select>
+
+            <select name="ccardyear" id="ccardyear" required="required">
+                <option value="" default="default">--Year--</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+            </select>
+
+            <label>CSC*</label>
+            <input type="text" name="csc" id="csc"
+                   pattern="^\d{3}$"
+                   placeholder="nnn" required="required" />
+
+        </fieldset>
+
+        <fieldset id="info">
+            <legend>Additional Information</legend>
+
+            <label for="price">How likely are you to recommand CS:GO tips to a friend? (10 being very likely adn 1 being not at all)</label>
+            <input type="range" name="price" id="price" value="1" min="1" max="10">
+            <!--not complete by any means-->
+            <label>Contact E-mail</label>
+            <input type="email" name="email" id="email" />
+
+            <label>Special Notes</label>
+            <textarea name="notes" id="notes"></textarea>
+        </fieldset>
+        <input type="checkbox" name="agree" value="agree">I agree to the Terms of Service according to CS:GO tips<br>
+        <p>
+            <input type="submit" value="Submit Order" />
+            <input type="reset" value="Reset" />
+        </p>
+    </form>`
+</body>
+</html>

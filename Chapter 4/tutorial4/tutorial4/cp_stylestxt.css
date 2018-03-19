@@ -1,0 +1,118 @@
+ /*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         cp_styles.css
+   Supporting Files: atwood.png, bike_bg.png, rawlings.png
+
+*/
+
+/*page body*/
+body{background:black url(bike_bg.png) top left no-repeat;
+     width:95%; min-width:1000px; max-width:1400px;
+     margin: 0px; position:relative;
+}
+
+/*General navigation datalist style*/
+nav a{text-decoration:none;}
+
+/*Horizontal navigation*/
+nav.horizontalNAV {margin-left:33%; width: 66%}
+nav.horizontalNAV li{float:left; width:20%; font-size:87.5%; text-align:center;
+                     padding:15px 0px;
+}
+nav.horizontalNAV li a{color:rgb(255,255,99);}
+nav.horizontalNAV li a:hover{color:white;}
+
+/*Presidents message*/
+#president{clear:left;
+           margin-left:33%;
+           background-color:rgb(105,96,87);
+           background-color:rgba(255,255,255,0.3);
+           float:left;
+           width:40%;
+           background-image:url(atwood.png);
+           background-position:bottom right;
+           background-repeat:no-repeat;
+           background-size: 40%;
+           border-radius:30px;
+           
+}
+
+#president h1{
+              font-family: 'Lucida Calligraphy', apple chancery, cursive; 
+              font-size:150%; 
+              font-weight:bold;
+              margin:10px 0px 0px 10px;
+}
+
+#president h2{
+    font-size:105%;
+    margin:0px 0px 10px 15px;
+}
+#president p{
+    font-size:87.5%;
+    margin:0px 40% 20px 15px;
+}
+
+/*vertical Nav section*/
+nav.verticalNAV{float:left margin-left: 3%; width: 23%; margin-top: -25px;}
+nav.verticalNAV a{color: rgb(182,182,92); line-height: 2.2em;
+                  border-bottom: 1px solid rgb(182,182,92);
+                  disply:block;
+}
+nav.verticalNAV a:hover{background-color:rgb(105,86,87);
+                        background-color:rgba(255,255,255,0.3);
+}
+
+/*story section*/
+#story{background-color:gray; background-color:rgba(255,255,255,0.8);
+       clear:left; float:left; margin:10px 0px 0px 33%; width:66%;
+}
+/*article styles*/
+#story article{border-right: 1px solid black; float: left; width:50%;}
+#story article hgroup{background:rgb(97,30,2) url(rawlings.png) bottom right no-repeat;
+    background-size:contain;
+    color:rgb(145,98,78);
+    color:rgba(255,255,255,0.3);
+    height:90px;
+    text-indent:10px;
+}
+#story article hgroup h1{font-size:150%; letter-spacing:3px;}
+#story article hgroup h2{font-size:105%;}
+#story article p{font-size:80%; margin:10px;}
+#story article ul li {font-size: 80%; margin: 15px 25px;}
+#story article ul li strong{font-weight:bold;}
+
+#story figure{float:left; width:40%;}
+#story figure img {border: 5px inset rgb(227,268,245); display: block; width: 80%; margin: 30px auto 10px;}
+#story figure figcaption{font-size:75%; font-style: italic; text-align:center;}
+
+/*header*/
+header{position:absolute;
+       top:20px;
+       left:20px;
+}
+
+/*aside*/
+aside{
+    color:yellow;
+    position: absolute;
+    top:387px;
+    left:10px;
+    width: 32%;
+    height: 450px;
+    overflow:auto;
+}
+
+/*footer*/
+footer{clear:left; margin-left:33%; width:66%;}
+footer address{color:yellow; font-size:80%; font-style:normal;
+               padding-top:10px; text-align:center;
+               padding-bottom: 10px;
+}

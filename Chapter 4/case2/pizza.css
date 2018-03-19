@@ -1,0 +1,32 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 2
+
+   Pizza Style Sheet
+   Author: jake ohland
+   Date:   10-6-2016
+
+   Filename:         pizza.css
+   Supporting Files: 
+
+*/
+header, section, aside, footer, nav {display: block;}/*default*/* {padding: 0px; margin: 0px;}
+
+body {background-color: red; font-family: Verdana, Geneva, sans-serif;}
+#container {width: 1000px; margin: 0px auto; border-left: 1px solid black; border-right: 1px solid black; 
+            background: white url(redbar.png) top left repeat-y;
+}header {background-color: white; height: 100px;}/*navigation*/nav.horizontal {height: 70px; width: 100%; background-color: white;}nav.horizontal li{background-color: white; font-size: 16px; height: 50px; line-height: 50px; width: 180px;
+                  float: left; display: block; text-align: center;
+}nav.horizontal li a {display: block; background-color: red; color: white; border-radius: 30px/25px;
+                     -moz-border-radius: 30px/25px; -webkit-border-radius: 30px 25px; text-decoration: none;
+}nav.horizontal li a:hover {background-color: rgb(255,101,101); color: black;}
+
+nav.vertical {clear: left; float: left; width: 200px;}nav.vertical li {list-style: none; text-indent: 20px; margin: 20px 0px;}nav.vertical li a {color: white; text-decoration: none;}nav.vertical li a:hover {color: black;}/*main*/#main{background-color:rgb(255,211,211); float: left; width:600px;}
+#main p{font-size:20px; margin:15px;}
+#main img{float:right; margin:15px; width:350px; border-bottom-left-radius:350px;
+          -moz-border-radius-bottomleft: 350px; -webkit-border-bottom-left-radius:350px;
+}
+#main .coupon {border: 5px dashed black; float: left; width: 170px; height: 150px; margin: 20px 10px;
+ background: url(slice.png) center center no-repeat, url(notice.png) bottom right no-repeat; background-color: white;
+}

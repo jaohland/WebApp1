@@ -1,0 +1,9 @@
+﻿@page{size: 8.5in 11in portrait; margin: 0.5in;}
+
+header, nav li, hgroup>h2{
+	display: none;
+}
+h1{font-size: 100%; margin-bottom: 0.2in;}
+h2{font-size: 75%; margin-top: 0.5in;}
+li{line-height: 1.5em;}
+ol {margin-left: 0.5in;}

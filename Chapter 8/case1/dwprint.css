@@ -1,0 +1,25 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 1
+
+   dessertWeb Print Styles
+   Author: Jake Ohland
+   Date:   11-6-2016
+
+   Filename:         dwprint.css
+   Supporting Files: 
+
+*/
+
+
+@page{size: 8.5in 11in portrait; margin: 0.5in;}
+
+header, section#left, section#right, nav li, aside, footer, hgroup>h2, article>p:last-of-type{
+	display: none;
+}
+h1{font-size: 200%; margin-bottom: 0.2in;}
+h2{font-size: 150%; margin-top: 0.5in;}
+li{line-height: 1.5em;}
+ol {margin-left: 0.5in;}
+h2:last-of-type{page-break-before: always;}

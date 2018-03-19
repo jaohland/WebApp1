@@ -1,0 +1,27 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Styles to Reset Style Defaults
+   Author: 
+   Date:   
+
+   Filename:         cp_reset.css
+   Supporting Files: none
+
+*/
+/*Display HTML5 Structual Elements as a Block*/
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {display:block};
+/*outlines*/
+/*{outline:red solid 1px;}*/
+
+/*Reset Styles*/
+body *{font-family: Verdana, Gevena, Tahome, sans-serif;
+       font-size:100%;
+       font-weight:inherit;
+       line-height:1.2em;
+       list-style:none;
+       vertical-align:baseline;
+       padding: 0px;
+}

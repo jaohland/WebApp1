@@ -1,0 +1,42 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: jake ohland
+   Date:   9-21-16
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Century Gothic, sans-serif;
+}
+h1{
+    color: yellow;
+    font-family: Courier New, courier, monospace;
+    font-size: 28px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+article h2{
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+}
+article strong{
+    color: yellow;
+    font-weight: normal;
+}
+
+footer p{
+    text-align: center;
+}
